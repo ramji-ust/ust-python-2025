@@ -34,4 +34,5 @@ Session 3: [Individual] [20]
 
  Session 4:
 
- 
+ Create a program to accept text from the user and count the number of vowels
+ in the text
