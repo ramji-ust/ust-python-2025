@@ -1,0 +1,15 @@
+Session 1:
+1. Given temperature t in Celcius, write a python expression to convert into farenheit
+2. Given two points A(x1, y1) and B(x2, y2), calculate the straight line distance between them
+3. Calculate the area of the triangle with threen given points A(x1, y1), B(x2, y2), C(x3, y3)
+
+Session 2:
+
+1. Write a program to calculate the height of a building given the 
+   distance of the measuring instrument from the building and angle formed 
+   at the observer when the highest point is seen [15]
+2. Given three points in space A, B and C, determine if the points make a isoceles
+   triangle, or right angled triangle or both [15]
+3. Design a simple calculator which has the following functionality:
+   add, sub, mul, div, mod, sqrt, log [15]
+ 
