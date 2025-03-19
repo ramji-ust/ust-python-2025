@@ -34,3 +34,22 @@ else:
 
 print("------------------------------------------")
 print(res)
+
+'''
+    if(a == b):
+        if(c == d):
+            <statements>
+        else:
+            <statments>
+    elif(a > b):
+         if(c == d):
+            <statements>
+        else:
+            <statments>
+    else:
+         if(c == d):
+            <statements>
+        else:
+            <statments>
+
+'''
