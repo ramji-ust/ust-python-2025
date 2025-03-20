@@ -107,3 +107,75 @@ Task: Use a while loop to find the factorial of num.
 
 numbers = [3, 9, 12, 18, 21, 25]  
 Task: Use a for loop to print only the numbers divisible by 3.  
+
+
+
+Session #3 [40]
+-------------------------------------------------------------------------------------------------------------------
+
+1. Count Word Frequency in a Sentence  
+Task: Given a sentence, count the occurrences of each word using a dictionary.  
+Example:  
+sentence = "apple banana apple orange banana apple"  
+Output: {'apple': 3, 'banana': 2, 'orange': 1}  
+
+2. Find Unique Elements in Two Lists Using Sets  
+Task: Given two lists, find the elements that are unique to each list using sets.  
+Example:  
+list1 = {1, 2, 3, 4}  
+list2 = {3, 4, 5, 6}  
+Output: Unique in list1: {1, 2}, Unique in list2: {5, 6}  
+
+3. Merge Two Dictionaries  
+Task: Merge two dictionaries and sum the values of common keys.  
+Example:  
+dict1 = {'a': 10, 'b': 20}  
+dict2 = {'b': 30, 'c': 40}  
+Output: {'a': 10, 'b': 50, 'c': 40}  
+
+4. Find the Intersection of Two Sets  
+Task: Given two sets, find the common elements.  
+Example:  
+set1 = {1, 2, 3, 4}  
+set2 = {3, 4, 5, 6}  
+Output: {3, 4}  
+
+5. Find the Most Frequent Element in a List  
+Task: Given a list, find the element that appears the most times.  
+Example:  
+numbers = [1, 3, 2, 3, 4, 3, 5, 2, 1, 3]  
+Output: Most frequent: 3 (appears 4 times)  
+
+6. Remove Duplicates from a List Using Sets  
+Task: Remove duplicates from a list while maintaining order.  
+Example:  
+lst = [1, 2, 2, 3, 4, 4, 5, 6, 6, 6]  
+Output: [1, 2, 3, 4, 5, 6]  
+
+7. Find Students Who Enrolled in Both Courses  
+Task: Given two sets of students, find those who are enrolled in both courses.  
+Example:  
+course_A = {"Alice", "Bob", "Charlie"}  
+course_B = {"Bob", "David", "Charlie"}  
+Output: {"Bob", "Charlie"}  
+
+8. Find the Union of Multiple Sets  
+Task: Find the union of three sets.  
+Example:  
+set1 = {1, 2, 3}  
+set2 = {3, 4, 5}  
+set3 = {5, 6, 7}  
+Output: {1, 2, 3, 4, 5, 6, 7}  
+
+9. Reverse a Dictionary (Keys Become Values, Values Become Keys)  
+Task: Swap keys and values in a dictionary.  
+Example:  
+original_dict = {'a': 1, 'b': 2, 'c': 3}  
+Output: {1: 'a', 2: 'b', 3: 'c'}  
+
+10. Check If Two Words Are Anagrams Using Dictionaries  
+Task: Given two words, check if they are anagrams (i.e., contain the same letters with the same frequency).  
+Example:  
+word1 = "listen"  
+word2 = "silent"  
+Output: True (They are anagrams)  
