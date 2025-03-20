@@ -40,12 +40,18 @@ Task: Find the maximum and minimum values in data.
 nums = [10, 20, 30, 40, 50, 60, 70]  
 Task: Extract every second element from nums.  
 
+
+**************************************************************
 nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]  
 Task: Convert nested_list into a single flat list.  
+**************************************************************
 
+
+**************************************************************
 list_a = [1, 2, 3, 4, 5, 6]  
 list_b = [4, 5, 6, 7, 8, 9]  
 Task: Find common elements between list_a and list_b.  
+**************************************************************
 
 scores = [78, 55, 92, 30, 88, 62]  
 Task: Sort scores in descending order.  
@@ -53,11 +59,51 @@ Task: Sort scores in descending order.
 my_tuple = (1, 2, 3)  
 Task: Repeat my_tuple three times and store the result.  
 
+**************************************************************
 numbers = [1, 2, 2, 3, 4, 4, 5, 6, 6]  
 Task: Remove duplicates while keeping the order.  
+**************************************************************
 
 words = ["Hello", "World", "Python", "Programming"]  
 Task: Insert "Amazing" at index 2.  
 
+
+**************************************************************
 pairs = [("a", 1), ("b", 2), ("c", 3)]  
 Task: Convert pairs into a dictionary.  
+**************************************************************
+
+
+Session #2 [30 - 40]
+-------------------------------------------------------------------------------------------------------------------
+
+
+nums = [1, 2, 3, 4, 5]  
+Task: Use a for loop to calculate the sum of all elements in nums.  
+
+count = 5  
+Task: Use a while loop to print numbers from count down to 1.  
+
+fruits = ["Apple", "Banana", "Cherry", "Mango"]  
+Task: Use a for loop to print each fruit in uppercase.  
+
+num = 1  
+Task: Use a while loop to print squares of numbers from 1 to 10.  
+
+values = [2, 4, 6, 8, 10]  
+Task: Use a for loop to create a new list containing cubes of values.  
+
+sentence = "Python is fun"  
+Task: Use a for loop to count how many times 'o' appears in sentence.  
+
+num = 10  
+Task: Use a while loop to print even numbers from 10 to 2 in reverse order.  
+
+matrix = [[1, 2], [3, 4], [5, 6]]  
+Task: Use nested for loops to print all elements in matrix.  
+
+num = 7  
+Task: Use a while loop to find the factorial of num.  
+
+numbers = [3, 9, 12, 18, 21, 25]  
+Task: Use a for loop to print only the numbers divisible by 3.  
