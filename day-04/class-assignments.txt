@@ -13,3 +13,26 @@ equate to 11. Use filter()
 Given L = ["red", "green", "blue", "yellow"]
 Sort the list in descending order with respect to the last charecter of the element
 output -> ['yellow', 'green', 'blue', 'red']
+
+Session 2: [30]
+-----------------------------------------------------------------------------------------
+
+1. Given a list of numbers, create a new list containing the squares of only the even numbers.
+2. Given a list of words, create a dictionary where the keys are words and the values are their lengths.
+   words = ["apple", "banana", "cherry", "date", "elderberry"]
+3. Given a list of tuples with names and ages, create a dictionary of names with ages only if age is greater than 18.
+   [("Alice", 25), ("Bob", 17), ("Charlie", 19), ("David", 16)]
+4. Flatten a 2D list into a 1D list using a list comprehension.
+    matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+5. Given a string, create a dictionary where the keys are characters and values are their frequencies.
+    text = "comprehension"
+
+6. What is the time required to find all the prime numbers between a given range
+   Example: a -> 3
+            b -> 10
+            Output: 3, 5, 7
+            Time: 0.0002 seconds
+
+7. Come up with an algorithm to flatten a list and implement it in python:
+   Example: [1, 2, 3, [4, 5, [6, 7]], 8]
+            Output: [1, 2, 3, 4, 5, 6, 7, 8]
