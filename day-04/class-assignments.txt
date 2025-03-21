@@ -1,0 +1,15 @@
+Session 1: [30]
+-----------------------------------------------------------------------------------------
+
+Write a function to return the sum of individual digits 
+Example: sum_individual(123) -> 6
+
+Create a list of squares of numbers between 1 and 10
+Use map()
+
+List all three digit numbers between 100 and 1000 whose sum of individual digits 
+equate to 11. Use filter()
+
+Given L = ["red", "green", "blue", "yellow"]
+Sort the list in descending order with respect to the last charecter of the element
+output -> ['yellow', 'green', 'blue', 'red']

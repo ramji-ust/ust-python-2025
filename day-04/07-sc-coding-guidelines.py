@@ -49,7 +49,9 @@ for num in input_numbers:
 # Output
 
 print("-"*80)
-print('Primes -> ', *primes)
+print('Primes    -> ', *primes)
+print('Maximum   -> ', max(input_numbers))
+print('Minimum   -> ', min(input_numbers))
 
 
 # Class-assignment:
