@@ -1,0 +1,62 @@
+nums = [12, 5, 8, 20, 15]  
+Task: Use a for loop to find the second largest number in nums.  
+
+num = 1  
+Task: Use a while loop to generate the Fibonacci sequence up to 50.  
+
+sentence = "Practice makes a person perfect"  
+Task: Use a for loop to count the occurrences of each vowel in sentence.  
+
+start, end = 10, 100  
+Task: Use a while loop to print all prime numbers between start and end.  
+
+words = ["Python", "Java", "C++", "JavaScript"]  
+Task: Use a for loop to create a dictionary with words as keys and their lengths as values.  
+
+n = 5  
+Task: Use nested for loops to print a right-aligned triangle of asterisks with n rows.  
+
+data = [1, 2, 3, [4, 5, [6, 7]], 8]  
+Task: Use a recursive function and a loop to flatten data into a single list.  
+
+num = 153  
+Task: Use a while loop to check if num is an Armstrong number.  
+
+string = "reverse me"  
+Task: Use a for loop to reverse the string without using slicing.  
+
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]  
+Task: Use a for loop to transpose matrix (convert rows to columns and vice versa).  
+
+----------------------------------------------------------------------------------------------------------------
+
+
+numbers = [5, 12, 7, 18, 30, 25]  
+Task: Use a for loop to find the longest sequence of consecutive increasing numbers in numbers.  
+
+n = 6  
+Task: Use nested for loops to generate Pascal’s Triangle up to row n.  
+
+data = [15, 30, 45, 60, 75, 90]  
+Task: Use a while loop to compute the Greatest Common Divisor (GCD) of all elements in data.  
+
+string = "aabbbccdde"  
+Task: Use a for loop to compress the string using Run-Length Encoding (RLE).  
+
+start, end = 2, 100  
+Task: Use a nested for loop to generate all prime numbers between start and end using the Sieve of Eratosthenes.  
+
+num = 123456789  
+Task: Use a while loop to check if num is a palindrome without converting it to a string.  
+
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]  
+Task: Use a for loop to rotate the matrix 90 degrees clockwise.  
+
+data = ["apple", "banana", "cherry", "date", "elderberry"]  
+Task: Use a for loop to sort data in order of increasing vowel count.  
+
+x, y = 0, 1  
+Task: Use a while loop to generate Fibonacci numbers until the sum of the sequence exceeds 500.  
+
+nested_list = [1, [2, [3, [4, 5], 6], 7], 8]  
+Task: Use a for loop and a stack to flatten nested_list into a single list without recursion.  
