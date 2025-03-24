@@ -1,0 +1,13 @@
+Session 1: [40]
+---------------------------------------------------------------------------------------------------
+
+1. Write a function to return the time required to double the invested amount and given rate of 
+   interest
+2. Write a function to find the second largest number in the list
+   Example: Input <- [34, 56, 67, 43]
+            Outupt -> 56
+3. Write a function to print charecter pyramid
+   Example: genPyramic(3, '*')
+                 *
+                ***
+               *****
