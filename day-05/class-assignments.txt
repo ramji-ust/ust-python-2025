@@ -11,3 +11,28 @@ Session 1: [40]
                  *
                 ***
                *****
+
+
+Session 2: [40]
+---------------------------------------------------------------------------------------------------
+
+1. Write a functions that returns the jumbled version of the words with spaces and capital letters
+   Example: Input <- jumble("apples")
+            Output -> P P L A E S 
+2. Write a function to determine if a number is a fibonacci number
+   Example: Input <- 8
+            OUtput -> 8 is in the fibonacci range
+3. Write a python function to merge two dictionaries
+   Example: d1 = { 'a': 20, 'b': 30 }
+            d2 = { 'b': 40, 'c': 50 }
+            Output -> { 'a' : 20, 'b':70, 'c' : 50 }
+    Merge rules: Numbers -> add
+                 Strings -> concatenate
+                 List, set -> Merge
+                 Tuple -> List of tuples
+                 Dictionary -> Merge
+
+4. Write a function that takes a mix of numbers and categorizes them into positives, negatives, and zeros. 
+   It should return the count of each category and their respective sums.
+5. Create a function authenticator(username, password) that returns another function, 
+   which can be called to access a secure message only if the username and password match.
