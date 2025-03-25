@@ -1,0 +1,46 @@
+(testenv) C:\Users\mindf\Desktop\current-training\python-work\day-06>python
+Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import ppackage
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'ppackage'
+>>> exit()
+
+(testenv) C:\Users\mindf\Desktop\current-training\python-work\day-06>pip install primesapp/.
+Processing c:\users\mindf\desktop\current-training\python-work\day-06\primesapp
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Building wheels for collected packages: ppackage
+  Building wheel for ppackage (pyproject.toml) ... done
+  Created wheel for ppackage: filename=ppackage-0.1-py3-none-any.whl size=1846 sha256=9d46e18602d9d8e86e30af0cf21321503ed58abec9954e623419125f7d430701
+  Stored in directory: C:\Users\mindf\AppData\Local\Temp\pip-ephem-wheel-cache-gp4i1s6i\wheels\74\df\13\ae9faa792357a2790590771ca6c84b3afbb4a5b43b5de1d942
+Successfully built ppackage
+Installing collected packages: ppackage
+Successfully installed ppackage-0.1
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(testenv) C:\Users\mindf\Desktop\current-training\python-work\day-06>python
+Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import ppackage
+primes.py __name__ =  ppackage.primes
+>>> ppackage.checkprime(15)
+False
+>>>
+>>> exit()
+
+(testenv) C:\Users\mindf\Desktop\current-training\python-work\day-06>deactivate
+C:\Users\mindf\Desktop\current-training\python-work\day-06>python
+Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import ppackage
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'ppackage'
+>>> exit()
+
+C:\Users\mindf\Desktop\current-training\python-work\day-06>

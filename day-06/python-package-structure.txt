@@ -34,3 +34,6 @@ my_package/                 # Root directory (package name)
 ├── LICENSE                 # License file
 ├── .gitignore              # Git ignore file
 └── MANIFEST.in             # Specifies additional files to include in the package
+
+
+poetry

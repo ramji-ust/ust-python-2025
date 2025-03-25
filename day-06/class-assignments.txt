@@ -6,25 +6,62 @@ Warm-up:
 
 Session 1: [45]
 ---------------------------------------------------------------------------------------------------------
-1. Create a module called strops
+
 2. Create a function to get the span of substrings
+    Example: input <- s = 'mississippi'  ss = 'ss' getspan(s, ss)
+             output -> (2, [(2,4), (5,7)])
+
+             s[2:4] -> 'ss'
+             s[5:7] -> 'ss'
+
+********************************************************************
+
+Solution workout:
+
+s = "apple" ss ="pp"
+s.find(ss) -> 1 -> start -> 1
+start + len(ss) -> end   -> 3
+s[1:3] -> 'pp'
+
+************************
+
+prevEnd = 0
+s = "mississiissippi" ss = "ss" -> original
+s.find(ss) -> 1 -> start -> 2
+start + len(ss) -> end   -> 4
+s[1:3] -> 'ss'
+
+prevEnd = 4
+s = "issippi" ss = "ss"
+s.find(ss) -> 1 -> start -> 1 + prevEnd -> 5
+start + len(ss) -> end   -> 3 + prevEnd -> 7
+
+prevEnd = 7
+s = "iissippi" ss = "ss"
+s.find(ss) -> 1 -> start -> 2 + prevEnd -> 9
+start + len(ss) -> end   -> 4 + prevEnd -> 11
+
+********************************************************************
+
+
+Session 2:
+---------------------------------------------------------------------------------------------------------
+
+1. Complete the getSpan()
+
+
+Session 3:
+---------------------------------------------------------------------------------------------------------
+
+1. Practice building the package
+2. Install it in the virtual environment and test
+
+Preparation for Hackaton - Micro-Project [120]
+---------------------------------------------------------------------------------------------------------
+1. Create a module called strops -> getspan(s, ss), reverseWords(s), removePunctuation(s), countWords(s), charecterMap(s)
+                                    makeTitle(s), normalizeSpaces(s), transform(s), getPermutations(s)
 3. Create a setup file 
 4. Test in a virtual environment
     4.1 Install the module in virtual environment
     4.2 Create a program to input a string and substring. Diplay the span of the substrings
 
-
-Session 2: 
----------------------------------------------------------------------------------------------------------
-
-
-Session 3:
----------------------------------------------------------------------------------------------------------
-1. Design a Word Jumble Game and implement in python
-   The game should consist of atleast 10 words to begin with
-    Jumbled Word: "otpcomure"
-    Your Guess: "computer"
-    ✅ Correct! 
-
-    Note: Use Unicode charecter to print the tick marks
-    Example: print("\U00002705 Correct!")

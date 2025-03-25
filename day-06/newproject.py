@@ -3,6 +3,7 @@
 
 import primes
 import copy
+print("newproject.py __name__ = ", __name__)
 
 # input
 print("Enter your data: ")

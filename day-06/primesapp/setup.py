@@ -1,13 +1,13 @@
 from setuptools import setup
 
 setup(
-    name='mypackage',
+    name='ppackage',
     version='0.1',
-    description='Testing installation of Package',
+    description='Testing installation of Primes Package',
     url='#',
     author='purushotham',
     author_email='purushotham@mindfullearning.in',
-    license='MIT',
-    packages=['mypackage'],
+    license='GPL',
+    packages=['ppackage'],
     zip_safe=False
 )

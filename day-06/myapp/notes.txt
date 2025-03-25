@@ -30,8 +30,9 @@ pip install -r requirements.txt
 
 # -------------------- installing virtual environments
 
-pip install virtualenv
-virtualenv myenv
+pip install virtualenv 
+
+virtualenv myenv or python -m venv testenv
 .\myenv\Scripts\activate
 
 

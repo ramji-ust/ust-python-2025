@@ -1,0 +1,2 @@
+mypackage @ file:///C:/Users/mindf/Desktop/current-training/python-work/day-06/myapp
+ppackage @ file:///C:/Users/mindf/Desktop/current-training/python-work/day-06/primesapp
