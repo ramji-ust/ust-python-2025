@@ -1,0 +1,37 @@
+Review: Guess my number game
+
+Session 1: [40]
+---------------------------------------------------------------------------------------------------------
+Demo. Design a Word Jumble Game and implement in python
+   The game should consist of atleast 10 words to begin with
+    Jumbled Word: "otpcomure"
+    Your Guess: "computer"
+    ✅ Correct! 
+
+    Note: Use Unicode charecter to print the tick marks
+    Example: print("\U00002705 Correct!")
+    Sample words should come from a file
+
+1. Based on the above code   
+
+   Give players two attempts
+   If the player guesses in the first attempt give 2 points, in the second attempt 1 points, otherwise 0
+   Allow players to get hints/clues if they fail to guess in the first attempt
+   Give the result based on total points, total first attempts, total second attempts
+   Use appropriate unicode charecters
+
+   Example: 'alepp'
+             Can you guess? ape 
+             CLUE: 'This is a fruit'
+             Take a second guess? apple
+             ✅ Correct! 
+
+             ...
+
+             Total          = 18
+             First          = 5
+             Second         = 8
+             Overall        = B+
+
+   Challenge: Keep the hints in the file. How to read the the words and hints from a file and integrate it
+            Come up with a logic to display the result
