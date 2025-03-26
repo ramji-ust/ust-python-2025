@@ -35,3 +35,11 @@ Demo. Design a Word Jumble Game and implement in python
 
    Challenge: Keep the hints in the file. How to read the the words and hints from a file and integrate it
             Come up with a logic to display the result
+            
+Session 2: [30]
+---------------------------------------------------------------------------------------------------------
+
+1. Complete Word jumble game
+2. Create nfactorial(n) which raises an exception if the input value is 0 or less, test it
+3. Upgrade the getSpan(s, ss) function to raise an exception if ss = '' or s = '', test it
+
