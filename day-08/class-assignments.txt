@@ -1,0 +1,91 @@
+Session 1: [90 - 120]
+-----------------------------------------------------------------------------------------------------
+
+Regular Expression Exercises in Python
+
+Extract Floating Point Numbers
+Text: "This statement contains +1.234 floating -67.87 point 1.234 number"
+Task: Write a regex to extract the floating-point number from the text including sign
+
+Find Email Addresses
+Text: "Contact us at support@example.com for more details"
+Task: Write a regex to extract the email address from the text.
+
+Extract Dates
+Text: "Today's date is 2025-03-27"
+Task: Write a regex to extract the date in YYYY-MM-DD format.
+
+Find Words with Double Letters
+Text: "I saw a little kitten running across the street"
+Task: Write a regex to extract words containing consecutive duplicate letters (e.g., little, kitten).
+
+Extract Phone Numbers
+Text: "My phone numbers are (123) 456-7890 and 987-654-3210"
+Task: Write a regex to extract both phone numbers.
+
+------------------------------------
+
+Find Hashtags in a Tweet
+Text: "Loving the #Python and #AI vibes today!"
+Task: Write a regex to extract all hashtags from the text.
+
+Extract Digits from a String
+Text: "Order number: 98765, Confirmation code: 54321"
+Task: Write a regex to extract all numerical values.
+
+Find Words Starting with a Capital Letter
+Text: "Alice and Bob went to New York for a Conference"
+Task: Write a regex to extract words that start with a capital letter.
+
+Extract Domain from URLs
+Text: "Visit https://www.example.com or http://test.org for info"
+Task: Write a regex to extract domain names from the URLs.
+
+Find Repeated Words
+Text: "This is is a test test to find repeated repeated words"
+Task: Write a regex to find repeated words appearing consecutively.
+
+----------------------------------------
+
+Extract Currency Values
+Text: "The product costs $59.99 and the discount is €10.50"
+Task: Write a regex to extract all currency values.
+
+Find HTML Tags
+Text: "<div>Welcome</div> <p>This is a paragraph.</p>"
+Task: Write a regex to extract all HTML tags.
+
+Validate IPv4 Addresses
+Text: "Valid IP: 192.168.1.1, Invalid IP: 999.999.999.999"
+Task: Write a regex to validate IPv4 addresses.
+
+Extract Words Ending with ‘ing’
+Text: "Running, swimming, and playing are fun activities"
+Task: Write a regex to extract words ending with ‘ing’.
+
+Find Sentences Ending with a Question Mark
+Text: "Do you know the answer? Let's find out. Are you sure?"
+Task: Write a regex to extract all sentences ending with ?.
+
+----------------------------------------------
+
+Extract Hex Color Codes
+Text: "Background color is #FF5733 and text color is #00FF00"
+Task: Write a regex to extract hex color codes.
+
+Extract Usernames from Twitter Handles
+Text: "Follow us @ChatGPT and @OpenAI"
+Task: Write a regex to extract usernames after @.
+
+Validate Strong Passwords
+Text: "My password is Str0ngP@ss!"
+Task: Write a regex to check if the password has at least 8 characters, including uppercase, lowercase, numbers, and special characters.
+
+Extract File Names from a Path
+Text: "/home/user/documents/report.pdf and C:\\Users\\Admin\\file.txt"
+Task: Write a regex to extract file names from paths.
+
+Find Three Consecutive Vowels
+Text: "Beautiful ocean scenery is amazing"
+Task: Write a regex to find words containing three consecutive vowels.
+
