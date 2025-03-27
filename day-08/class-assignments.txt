@@ -18,10 +18,14 @@ Task: Write a regex to extract the date in YYYY-MM-DD format.
 Find Words with Double Letters
 Text: "I saw a little kitten running across the street"
 Task: Write a regex to extract words containing consecutive duplicate letters (e.g., little, kitten).
+Answer: r"\w*(\w)\1\w*"
 
 Extract Phone Numbers
 Text: "My phone numbers are (123) 456-7890 and 987-654-3210"
 Task: Write a regex to extract both phone numbers.
+
+
+
 
 ------------------------------------
 
