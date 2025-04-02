@@ -1,0 +1,6 @@
+Session 1 [45]
+----------------------------------------------------------------------------------------------
+
+1. Review the concepts 
+2. Review the Word Jumble Game in OOP framework
+3. Implement the Guess-my-Number game in the OOP framework
