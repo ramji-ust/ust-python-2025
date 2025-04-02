@@ -4,3 +4,20 @@ Session 1 [45]
 1. Review the concepts 
 2. Review the Word Jumble Game in OOP framework
 3. Implement the Guess-my-Number game in the OOP framework
+
+    Computer has chose a number (1, 100), can you guess? Max. 10 guesses
+
+    -> 35
+    Higher
+
+    -> 65
+    Lower
+
+    -> 44
+    Higher
+
+    -> 45
+    Correct!!
+
+    Number of attempts 4/10
+    Excellent playing!
