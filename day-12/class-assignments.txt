@@ -6,3 +6,14 @@ Access 24-sc-student-report-generator.py
 Task 1: Update the class dictionary with averages for every student (Step 3)
 Task 2: Come up with a logic to assign ranks for every student and implement it (Step 4)
 
+Session 2 [45]
+------------------------------------------------------------------------------------------------
+
+Access 24-sc-student-report-generator.py
+
+Task 1: Some ranks are missing, fix the problem
+Task 2: Print the formatted report into a file - studentreport.txt
+Task 3: Write the content of the class dictionary to a file in a CSV format - studentreport.csv 
+            name,age,regid,phy,chem,math,bio,avg,rank
+            Vijay,14,HPE001,99,98,97,96,97.5,3
+            Aryan,14,HPE002,98,91,93,96,94.5,9
