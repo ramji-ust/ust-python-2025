@@ -1,0 +1,8 @@
+Session 1 [45] + [15]
+------------------------------------------------------------------------------------------------
+
+Access 24-sc-student-report-generator.py
+
+Task 1: Update the class dictionary with averages for every student (Step 3)
+Task 2: Come up with a logic to assign ranks for every student and implement it (Step 4)
+
