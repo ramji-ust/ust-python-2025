@@ -1,3 +1,5 @@
+from management import Employee, Department, save_to_json, load_from_json
+
 # -----------------------
 # Sample Main Execution
 # -----------------------
@@ -16,7 +18,7 @@ employees = [Employee.from_string(s) for s in data_strings]
 # Create Departments and assign employees
 departments = {}
 for emp in employees:
-    if emp.department not in departments:
+    if emp.department not in departments: # getattr(emp, 'department')
         departments[emp.department] = Department(emp.department)
     departments[emp.department].add_employee(emp)
 
@@ -36,6 +38,7 @@ save_to_json(employees)
 
 # Load and verify
 print("\n📂 Loaded Data from JSON:")
-loaded_emps = load_from_json()
+loaded_emps = load_from_json() # Should take data from json, create employee objects and return the list 
+                               # loaded_emps should look like employees created before
 for emp in loaded_emps:
     print(emp.get_details())
